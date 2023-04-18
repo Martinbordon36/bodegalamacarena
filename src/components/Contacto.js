@@ -2,10 +2,30 @@ import React from 'react'
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/lamacalogo.png'
+import Navbar from './Navbar';
+import emailjs from 'emailjs-com';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contacto = () => {
+  
+  function enviarEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('service_2uysve8','template_43le3wm',e.target,'2hlKsRgIOIdqWFzz8').then(res=>{
+      toast.success('Consulta enviada correctamente', { autoClose: 3000 });
+
+        console.log(res);
+        setTimeout(() => {
+          window.location.reload(); // Recarga la página después de 10 segundos
+        }, 3000);
+    })
+    
+}
+
   return (
     <>
+    <Navbar />
       <div className='contacto'>
         <div className='header'>
         <a href="/">
@@ -23,14 +43,14 @@ const Contacto = () => {
   </nav>
         </div>
         <h1 className='text-center title-contacto'>Contacto</h1>
-        <p>Dejanos tus datos y nos ponemos en contacto con usted</p>
+        <p className='p-contacto'>Dejanos tus datos y nos ponemos en contacto con usted</p>
 
       </div>
 
-      <form method="post">
-        <input name="nombre" type="text" placeholder="Nombre *" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus />
-        <input name="email" type="email" placeholder="Correo electrónico *" required />
-        <textarea name="consulta" placeholder="¿Cuál es el motivo de tu consulta? *" rows="6" required></textarea>
+      <form onSubmit={enviarEmail} className='form'>
+        <input name="nombre" id="nombre" type="text" placeholder="Nombre *" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus />
+        <input name="email" id="email" type="email" placeholder="Correo electrónico *" required />
+        <textarea name="mensaje" class="mensaje" placeholder="¿Cuál es el motivo de tu consulta? *" rows="6" required></textarea>
         {/* 
         <div className='check'>
           <input type={'checkbox'} />
@@ -44,7 +64,7 @@ const Contacto = () => {
 
 
 
-        <button id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
+        <button id="enviar" name="enviar" type="submit" className="btn">ENVIAR</button>
 
 
       </form>
@@ -62,7 +82,7 @@ const Contacto = () => {
   
       </form>
       </div> */}
-
+<ToastContainer/>
       <Footer />
     </>
   )

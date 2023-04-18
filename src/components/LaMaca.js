@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/img/lamacalogo.png'
 import Navbar from './Navbar';
 
-const Lamacarena = () => {
+const Lamaca = () => {
   return (
     <>
   <Navbar />
@@ -52,4 +52,4 @@ const Lamacarena = () => {
   )
 }
 
-export default Lamacarena
+export default Lamaca

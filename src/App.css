@@ -1,583 +1,11 @@
-/* @media(min-width: 768px){
-
-
-.nuestros-productos{
-  background-image: url(assets/img/nuestrosproductos.jpg);
-  height: 100vh;
-  background-size: cover;
-  width: 100%;
-}
-
-.principal-lamacarena{
-  background-image: url(assets/img/maca1.png) , linear-gradient(to bottom, rgba(0, 0, 0, 0.488), rgba(0, 0, 0, 0.932));
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: center;
-}
-
-.img-home-maca{
-  height: 100%;
-  width: 100%;
-}
-
-
-.menu{
-  padding:40px
-}
-
-.menu a{
-text-decoration: none;
-color:white;
-font-weight: bold;
-padding:10px;
-margin-right: 60px;
-}
-
-.title{
-  margin-top: 300px;
-  color:white
-}
-
-.text-center{
-  text-align: center;
-}
-
-
-.descripcion{
-  color:white;
-  max-width: 1000px;
-  font-weight: bold;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.container-home{
-  display: grid;
-  grid-template-columns: repeat(2,50%);
-  background-color: #c0b296;
-}
-
-.imhome{
-  background-color: red;
-}
-
-.text-home{
-  padding:130px;
-  width: 450px;
-}
-
-.text-p-home{
-  color: brown;
-  text-decoration: overline;
-}
-
-.img-home{
-/* object-fit: cover;
-height: 100%;
-width: 100%;
-}
-
-.img-home:hover{
-  background-image: url(./assets/img/001.jpg);
-  transform: scale(1.1);
-  background-size: cover;
-  transition: all 10s ease-in-out 0s;
-  /* outline:rgb(245,1,1) dashed 0px;
-  box-sizing: border-box;
-  transform: scale(1.1) 
-  
-}*/
-
-/* .footer{
-  background-color: black;
-  padding:40px;
-  display: grid;
-  grid-template-columns: repeat(4,25%);
-  color: white;
-  font-weight: bold;
-}
-
-.logo-footer{
-  width: 150px;
-} */
-
-/* .productos{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  margin-top: 20px;
-} */
-/* .botella{
-  width: 150px;
-  padding:70px;
-} */
-
-/* .d-flex{
-  display: flex;
-} */
-
-/* .descripcion-botella{
-  margin-right: 50px;
-} 
-
-
-
-.container-form{
-  background-color: #c0b296;
-
-}
-
-.formulario{ 
-  padding:70px;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  margin: 0 auto;
-}
-
-.formulario label{
-  padding:5px;
-}
-
-.formulario input{
-  padding:5px;
-  border-radius: 15;
-}
-/*
-} 
- MOVIL */ 
-
-/* Elemento Checkbox, cuando está marcado */
-/* input[type="checkbox"]:checked {
-  box-shadow: 0 0 0 3px hotpink;
-}
-
-.check{
-  padding: 7px;
-}
-
-
-
-}
-p{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  line-height: 1.5;
-}
-
-h1{
-  font-family: 'Kaisei Opti', serif;
-}
-
-ul{
-  font-family: 'Montserrat', sans-serif;  
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 13px;
-}
-
-
-
-.contacto{
-  background-image: url(assets/img/contacto.jpg);
-  height: 900px;
-  width: 100%;
-  color: white;
-}
-
-
-.descripcion{
-  color: white;
-}
-
-
-
-.img-home-maca{
-  max-width: 100%;
-
-}
-
-.footer{
-  background-color: black;
-  color: white;
-  padding:20px
-}
-
-.logo-footer{
-  width: 220px;
-  padding: 30px;
-} 
-
-.container-form{
-background-color: red;
-padding: 10px;
-}
-
-.formulario{
-  display: block;
-}
-
-.formulario label{
-  width: 100%;
-}
-
-form{
-  padding: 60px;
-  max-width: 400px;
-  background-color: #E7E7E7;
-  margin: 0 auto;
-}
-
-form input, form textarea{
-  margin-bottom: 15px;
-  font-family: "Roboto", sans-serif;
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box; 
-  border: none; 
-  color: #525c66; 
-  font-size: 1em;
-  resize: none; 
-}
-
-form button {
-	display: block;
-	background-color: #0095eb;
-	padding: 10px 45px 10px 45px;
-	border: 0;
-	font-size: 1em; 
-	color: 	white;
-  font-family: "Roboto", sans-serif;
-}
-form button :hover{
-	background-color: #046193;
-}
-textarea {  resize: none;}
- 
-
-
-
-
-/*----------------------------------------------------------------------------------------------------------------------------------------*/
-
-/*Elemento Checkbox, cuando está marcado */
-
-/* input[type="checkbox"]:checked {
-  box-shadow: 0 0 0 3px hotpink;
-}
-
-.check{
-  padding: 7px;
-}
-
-
-
-.d-grid{
-  display: grid;
-  grid-template-columns: repeat(2,50%);
-  background-color: #c0b296;
-}
-
-.text-home{
-  padding:130px;
-  width: 450px;
-}
-
-.text-p-home{
-  color: brown;
-  text-decoration: overline;
-}
-
-.img-home{
-object-fit: cover;
-height: 100%;
-width: 100%;
-}
-
-.img-home:hover{
-  background-image: url(./assets/img/001.jpg);
-  background-position: center;
-  transform: scale(0.7);
-  transition: all 10s ease-in-out 0s;
-  /* outline:rgb(245,1,1) dashed 0px; 
-  box-sizing: border-box;
-  transform: scale(1.1) 
-}
-
-.footer{
-  background-color: black;
-  padding:40px;
-  display: grid;
-  grid-template-columns: repeat(4,25%);
-  color: white;
-  font-weight: bold;
-}
-
-.logo-footer{
-  width: 150px;
-}
-
-.productos{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  margin-top: 20px;
-}
-.botella{
-  width: 150px;
-  padding:70px;
-}
-
-.d-flex{
-  display: flex;
-}
-
-.descripcion-botella{
-  margin-right: 50px;
-}
-
-.prensa{
-  background-image: url(assets/img/prensa.jpg);
-  height: 100vh;
-  background-size: cover;
-  width: 100%;
-}
-
-.contacto{
-  background-image: url(assets/img/contacto.jpg);
-  height: 100vh;
-  background-size: cover;
-  width: 100%;
-}
-
-.container-form{
-  background-color: #c0b296;
-
-}
-
-.formulario{ 
-  padding:70px;
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  margin: 0 auto;
-}
-
-.formulario label{
-  padding:5px;
-}
-
-.formulario input{
-  padding:5px;
-  border-radius: 15;
-}
-
-/* Elemento Checkbox, cuando está marcado */
-
-/* input[type="checkbox"]:checked {
-  box-shadow: 0 0 0 3px hotpink;
-}
-
-.check{
-  padding: 7px;
-}
-
- .container-form{
-  background-color: red;
-  padding: 10px;
-  }
-  
-  .formulario{
-    display: block;
-  }
-  
-  .formulario label{
-    width: 100%;
-  }
-  
-  form{
-    padding: 60px;
-    max-width: 400px;
-    background-color: #E7E7E7;
-    margin: 0 auto;
-  }
-  
-  form input, form textarea{
-    margin-bottom: 15px;
-    font-family: "Roboto", sans-serif;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box; 
-    border: none; 
-    color: #525c66; 
-    font-size: 1em;
-    resize: none; 
-  }
-  
-  form button {
-    display: block;
-    background-color: #0095eb;
-    padding: 10px 45px 10px 45px;
-    border: 0;
-    font-size: 1em; 
-    color: 	white;
-    font-family: "Roboto", sans-serif;
-  }
-  form button :hover{
-    background-color: #046193;
-  }
-  textarea {  resize: none;} 
-
-  */
-
-
-  /* MOVIL ACTUALIZADO 
-
-  
-  .logo{
-    height: 60px;
-    display: block;
-    margin: auto;
-    padding-top: 20px;
-  }
-
-  .principal{
-    background-image: url(assets/img/001.jpg);
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-  }
-
-  .container-text{
-    padding: 130px;
-  }
-  
-  .title{
-    text-align: center;
-    color: white;
-  }
-  
-  .menu{
-    display: block;
-  }
-
-  .menu-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-.item-nav{
-  margin-top: 10px;
-  text-decoration: none;
- 
-}
-
-.container-home{
-  background-color: #c0b296;
-  padding: 20px
-  ;
-  }
-
-  .img-home{
-    width: 100%;
-  }
-
-  .logo-footer{
-    width: 250px;
-    margin-left: 30px;
-  }
-
-  /** lA MACARENA 
-
-  .principal-lamacarena{
-    background-image: url(assets/img/maca1.png);
-    height: 100%;
-   width: 100%;
-  } 
-
-  
-  .container-text-lamacarena{
-    padding: 25px;
-    margin-top: 30px;
-  }
-
-  .prensa{
-    background-image: url(assets/img/prensa.jpg);
-    height: 100vh;
-    background-size: cover; 
-    width: 100%;
-  }
-
-.container-text-prensa{
-  padding: 20px;
-  margin-top: 70px;
-}
-
-/* Nuestros Productos
-
-.botella{
-  display: block;
-  width: 100px;
-  margin: 0 auto;
-}
-
-.descripcion-botella{
-  text-align: center;
-}
-
-.contacto{
-  background-image: url(assets/img/contacto.jpg);
-  height: 80vh;
-  background-size: cover;
-  width: 100%;
-}
-
-.title-contacto{
-margin-top: 150px;
-text-align: center;
-}
-
-.title-home{
-  text-align: center;
-}
-
-.footer-p p{ 
-  text-align: center;
-}
-
-*/
-
-/** VERSION WEB **/
-
-
-  /* .logo{
-    height: 60px;
-    padding:40px
-  }
-  .principal{
-    background-image: url(assets/img/001.jpg);
-    height: 100vh;
-    width: 100%;
-  }
-  .header{
-    display: flex;
-    justify-content: space-between;
-  }
-   .menu{
-    padding:40px
-  }
-  
-  .menu a{
-  text-decoration: none;
-  color:white;
-  font-weight: bold;
-  padding:10px;
-  margin-right: 60px;
-  }
-  
- */
+ .navbar{
+  display: none;
+  visibility: hidden;
+ }
+
+ .btn{
+  cursor:pointer
+ }
 
  body{
   overflow-x: hidden;
@@ -629,6 +57,10 @@ margin-top: 35px;
 
 .title{
   color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 48px;
 }
 
 .container-home{
@@ -639,6 +71,11 @@ margin-top: 35px;
 }
 
 .text-home{
+  padding:130px;
+  width: 450px;
+}
+
+.text-home-lamacarena{
   padding:130px;
   width: 450px;
 }
@@ -668,6 +105,11 @@ margin-top: 35px;
     font-weight: bold;
   }
 
+  .footer-p a{
+  text-decoration: none;
+  color: white;
+  }
+
   .logo-footer{
     width: 150px;
   }
@@ -690,6 +132,10 @@ margin-top: 35px;
     margin-top: 300px;
     color:white;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 48px;
   }
 
   .descripcion-lamacarena{
@@ -718,7 +164,10 @@ margin-top: 35px;
   margin-top: 300px;
   color:white;
   text-align: center;
-
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 48px;
 
 }
 
@@ -757,6 +206,7 @@ margin-top: 35px;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .prensa{
@@ -769,10 +219,13 @@ margin-top: 35px;
 }
 
 .title-prensa{
-  font-weight: 400;
   margin-top: 300px;
   color:white;
   text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 48px;
 }
 
 .descripcion-prensa{
@@ -792,9 +245,18 @@ margin-top: 35px;
 }
 
 .title-contacto{
-margin-top: 50px;
+  /* margin-top: 150px; */
 text-align: center;
 color: white;
+font-family: 'Bebas Neue', cursive;
+font-weight: 400;
+text-transform: uppercase;
+font-size: 48px;
+}
+
+.p-contacto{
+color: white;
+text-align: center;
 }
 
 form{
@@ -802,7 +264,7 @@ form{
   max-width: 300px;
   background-color: #e7e5e1;
   margin: 0 auto;
-  margin-top: -450px;
+  margin-top: -380px;
   margin-bottom: 20px;
 }
 
@@ -833,6 +295,658 @@ form button :hover{
 	background-color: #046193;
 }
 textarea {  resize: none;}
- 
+
+.productos-individuales{
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+} 
+
+.botella-individual{
+  width: 180px;
+  height: 730px;
+  margin-left: 120px;
+  margin-top: 80px;
+} 
+/* 
+.container-caracteristicas{
+  width: 90%;
 
 
+}
+
+.caracteristicas{
+  text-align: center;
+}
+
+.container-descripcion span{
+  font-weight: 700;
+  font-size: 14;
+  text-transform: uppercase;
+}
+.container-descripcion h3{
+  font-weight: 300;
+  font-size: 10;
+}
+
+.container-botella h3{
+margin-left: 100px;
+margin-top: 60px;
+} */
+
+.productos-indivualess{
+  background-color: rgb(247, 240, 240);
+  border-radius: 13px;
+  width: 880px;
+  margin-left: 340px;
+
+}
+
+
+.vino-individuales{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8)),url(assets/img/maca1.png);
+  height: 100%;
+  background-size: cover;
+  width: 100%;
+  padding: 10px;
+}
+
+.logo-negro{
+  height: 60px;
+  padding:10px;
+  margin-left: 100px;
+}
+.container-descripcion{
+  width: 200px;
+  margin-left: 110px;
+  margin-bottom: 15px;
+}
+
+.container-descripcion h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: -4px;
+}
+
+.container-descripcion p{
+  text-align: center;
+
+}
+
+.container-caracteristicas-h1{
+background-color: #e0e0e0;
+font-size: 16px;
+text-transform: uppercase;
+width: 450px;
+}
+
+.container-caracteristicas-p{
+  font-size: 14px;
+  width: 450px;
+  }
+
+/* movil */ 
+
+@media(max-width:468px ){
+.logo{
+  height: 80px;
+  width: 230px;
+  visibility: hidden;
+}
+.header{
+  display: block;
+  max-width: 100%;
+  /* background-color: yellow; */
+  visibility: hidden;
+}
+
+
+.item-nav{
+  /* background-color: blue; */
+  display: block;
+  padding: 10px;
+}
+.principal{
+  max-width: 100vh;
+  height: 100vh;
+  }
+
+.container-text{
+  /* background-color: yellow; */
+  margin-top: 20px;
+}
+.title{
+  width: 300px;
+  font-weight: 400;
+  margin-top: 0px;
+  /* background-color: red; */
+  text-align: center;
+  margin-left: 20px;
+  
+}
+
+.container-home{
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+
+.text-home{
+
+  width:300px;
+  padding: 50px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container-text-lamacarena{
+  margin-top: -180px
+}
+
+.principal-lamacarena{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8)), url(assets/img/maca1.png);
+  height: 100%;
+ width: 100%;
+} 
+
+.title-lamacarena{
+  margin-top: 10px;
+}
+
+.text-home-lamacarena{
+  width: 100%;
+  padding: 50px;
+  margin-top: 10px;
+  text-align: center;
+
+}
+.title-home{
+  width: 200px;
+  padding: 40px;
+  margin-top: -30px;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.title-home-lamacarena{
+  /* background-color: yellow; */
+  padding:30px;
+  width: 200px;
+  margin-top: -30px;
+  font-size: 24px;
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+}
+
+.title-home-p{
+  width: 300px;
+  margin-right: 20px;
+  margin-left: -10px;
+  font-size: 20px;
+}
+
+
+.text-home-lamacarena p{
+  /* background-color: green; */
+  width: 300px;
+  padding: 30px;
+  margin-left: -50px;
+  font-size: 20px;
+}
+
+.nuestros-productos{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8)),url(assets/img/Telefono.jpg);;
+}
+.prensa{
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8)),url(assets/img/prensa.jpg);
+  height: 100vh;
+  background-size: cover; 
+  width: 100%;
+}
+
+.container-text-prensa{
+  margin-top: -380px
+}
+
+.title-prensa{
+  margin-top:-10px
+}
+
+.descripcion-prensa{
+  width: 300px;
+  margin-top: 80px;
+}
+
+.title-contacto{
+  padding: 30px;
+  margin-top: -300px;
+}
+
+.p-contacto{
+  margin-top: -50px;
+  color: white;
+  font-size: 18px;
+  width: 300px;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+
+.footer{
+  display: block;
+}
+
+
+
+.logo-footer{
+  height: 80px;
+  width: 230px;
+  margin-left: 0px;
+}
+
+.title-nuestrosvinos{
+  margin-top: 10px;
+}
+
+.productos{
+   display: block;
+}
+
+.d-flex{
+  display: flex;
+  flex-direction: column;
+  padding:5px
+}
+
+.botella{
+  margin-left: 60px;
+}
+
+.descripcion-botella{
+  background-color: rgb(240, 218, 218);
+  margin-top: 10px;
+  border-radius: 2px;
+  padding:15px
+}
+.descripcion-botella h3{
+  text-align: center;
+}
+
+.boton-vermas{
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.productos-indivualess{
+  width: 100%;
+  height: 100%;
+  margin-left: 3px;
+  width: 350px;
+}
+
+.productos-individuales{
+  display: block;
+  padding: 3px;
+  margin-top: -350px;
+
+}
+.botella-individual{
+padding: 2px;
+margin-left: 74px;
+width: 200px;
+}
+
+.logo-negro{
+  height: 80px;
+  width: 230px;
+  margin-left: 35px;
+}
+
+.container-descripcion{
+  height: 80px;
+  width: 230px;
+  margin-left: 35px;
+  margin-top: -30px;
+  margin-bottom: 130px;
+}
+
+.container-descripcion p{
+  font-size: 18px;
+  height: 100px;
+  padding:10px;
+}
+
+.container-caracteristicas-h1{
+  text-align: center;
+  width: 320px;
+}
+.container-caracteristicas-p{
+  max-width: 300px;
+  font-size: 14px;
+}
+
+}
+
+/* Tablet */
+
+@media(min-width:768px) and (max-width:1024px ){
+  .logo{
+    height: 80px;
+    width: 230px;
+    visibility: hidden;
+  }
+  .header{
+    display: block;
+    max-width: 100%;
+    /* background-color: yellow; */
+    visibility: hidden;
+  }
+  
+  
+  .item-nav{
+    /* background-color: blue; */
+    display: block;
+    padding: 10px;
+  }
+  .principal{
+    max-width: 100vh;
+    height: 100vh;
+    }
+  
+  .container-text{
+    /* background-color: yellow; */
+    margin-top: 20px;
+  }
+  .title{
+    width: 700px;
+    font-weight: 400;
+    margin-top: 0px;
+    /* background-color: red; */
+    text-align: center;
+  }
+  
+  .container-home{
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+  }
+  
+  .text-home{
+    /* background-color: blue; */
+    width: 17.3vh;
+    padding: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .title-home{
+    width: 500px;
+    padding: 40px;
+    margin-top: -30px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+  }
+  
+  .title-home-p{
+    /* background-color: green; */
+    width: 500px;
+    padding: 60px;
+    text-align: center;
+  }
+
+  .title-home-lamacarena{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+  }
+  
+  .footer{
+    display: block;
+  }
+  
+  .logo-footer{
+    height: 80px;
+    width: 230px;
+    margin-left: 0px;
+  }
+
+  .nuestros-productos{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8)),url(assets/img/Tablet.jpg);;
+  }
+  
+  .title-nuestrosvinos{
+    margin-top: 60px;
+  }
+  
+  .productos{
+     display: block;
+    
+  }
+  
+  .d-flex{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+  }
+  
+  .botella{
+    margin-left: 260px;
+  }
+  
+  .descripcion-botella{
+    background-color: rgb(240, 218, 218);
+    margin-top: 10px;
+    border-radius: 15px;
+    padding:15px
+  }
+  .descripcion-botella h3{
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .descripcion-botella p{
+    text-align: center;
+   
+  }
+  
+  .boton-vermas{
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+
+  }
+
+  .container-text-prensa{
+  margin-top: -120px;
+  }
+
+  .descripcion-prensa{
+    width: 700px;
+    font-size: 18px;
+  }
+
+
+  .title-lamacarena{
+    margin-top: 0px;
+  }
+
+  .descripcion-lamacarena{
+    width: 700px;
+    font-size: 18px;
+  }
+
+  .text-home-lamacarena{
+    padding:100px;
+    width: 100%;
+  }
+
+  .text-home-lamacarena p{
+    font-size:24px ;
+    width: 500px;
+  }
+
+  .title-contacto{
+    padding: 30px;
+    margin-top: -200px;
+  }
+  
+  .p-contacto{
+    margin-top: -50px;
+    color: white;
+    font-size: 18px;
+    width: 800px;
+    padding: 20px;
+    
+  }
+
+  .form{
+    margin-top: -540px;
+
+  }
+
+  .productos-indivualess{
+    width: 100%;
+    height: 100%;
+    margin-left: 90px;
+    width: 550px;
+  }
+  
+  .productos-individuales{
+    display: block;
+    padding: 3px;
+    margin-top: -350px;
+  
+  }
+  .botella-individual{
+  padding: 2px;
+  margin-left: 174px;
+  width: 200px;
+  }
+  
+  .logo-negro{
+    height: 80px;
+    width: 230px;
+    margin-left: 135px;
+  }
+  
+  .container-descripcion{
+    height: 80px;
+    width: 230px;
+    margin-left: 135px;
+    margin-top: -30px;
+    margin-bottom: 130px;
+  }
+  
+  .container-descripcion p{
+    font-size: 18px;
+    height: 100px;
+    padding:10px;
+  }
+  
+  .container-caracteristicas-h1{
+    text-align: center;
+    width: 510px;
+  }
+  .container-caracteristicas-p{
+    max-width: 600px;
+    font-size: 18px;
+    text-align: center;
+  }
+  }
+  
+
+
+   @media(max-width:768px){
+    .navbar{
+      background: black;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      visibility: visible;
+    }
+  
+    .nav_logo{
+      font-weight: bold;
+      font-size: 20px;
+      margin: 15px;
+      color: white;
+    }
+  
+    .nav_items .item-nav-mobile{
+      margin:15px;
+      color:white;
+      position: relative;
+      text-decoration: none;
+    }
+  
+    .nav_toggle{
+      display: none;
+    }
+    .nav_items{
+      position: absolute;
+      top: 60px;
+      left: 60;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      width: 100%;
+      height: -webkit-fill-available ;
+      transform: translateX(-100%);
+      transition: 0.3s ease all;
+    }
+
+    .nav_items.open{
+      transform: translateX(0) !important
+    }
+
+    .nav_toggle{
+      display: flex!important;
+      flex-direction: column;
+      margin: 15px;
+    }
+
+    .nav_toggle span{
+      width: 30px;
+      height: 4px;
+      background: white;
+      margin-bottom: 5px;
+      border-radius: 2px;
+      transform-origin: 5px 0px;
+      transition: all 0.2s linear;
+    }
+
+    .nav_toggle.open > span {
+      transform: rotate(45deg) translate(0px,0px);
+    }
+
+    .nav_toggle.open > span:nth-child(2){
+      display: none;
+    }
+
+    .nav_toggle.open> span:nth-child(3){
+      transform: rotate(-45deg) translate(-5px,1px);
+    }
+
+    .logo-mobile{
+      width: 150px;
+      padding: 20px;
+      margin-top: 10px;
+    }
+  } 
+
+  @media(min-width:980px) and (max-width:1450px ){
+    .text-home h1{
+      font-family: 'Bebas Neue', cursive;
+      text-transform: uppercase;
+    }
+    .text-home-lamacarena h1{
+      font-family: 'Bebas Neue', cursive;
+      text-transform: uppercase;
+    }
+  }

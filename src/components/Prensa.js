@@ -2,10 +2,12 @@ import React from 'react'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
 import logo from '../assets/img/lamacalogo.png'
+import Navbar from './Navbar';
 
 const Prensa = () => {
   return (
     <>
+    <Navbar />
     <div className='prensa'>
     <div className='header'>
     <a  href="/">

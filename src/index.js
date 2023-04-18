@@ -1,14 +1,16 @@
-import React, { Children } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Header from './components/Header';
-import Lamacarena from './components/Lamacarena';
 import NuestrosProductos from './components/NuestrosProductos';
 import Prensa from './components/Prensa';
 import Contacto from './components/Contacto';
+import Vino from './components/Vino';
+import Tinkunacotorrontes from './components/Tinkunacotorrontes';
+import Lamaca from './components/LaMaca';
 
 
 const router = createBrowserRouter([
@@ -23,7 +25,7 @@ const router = createBrowserRouter([
 },
 {
   path: '/lamacarena',
-  element: <Lamacarena />
+  element: <Lamaca/>
 },
 {
   path: '/nuestros-productos',
@@ -36,8 +38,15 @@ const router = createBrowserRouter([
 {
   path: '/contacto',
   element: <Contacto />,
+},
+{
+  path: '/tinkunaco-malbec',
+  element: <Vino />,
+},
+{
+  path: '/tinkunaco-torrontes',
+  element: <Tinkunacotorrontes />
 }
-
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

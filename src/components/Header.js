@@ -3,16 +3,18 @@ import Home from './Home';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import logo from '../assets/img/lamacalogo.png'
+import Navbar from './Navbar';
 
 const Header = () => {
   return (
 <>
+<Navbar />
 <div className='principal'>
-    
-  <div className='header'>
+    <div className='header'>
        <a  href="/">
      <img src={logo} className="logo" alt="logo"/>
         </a>
+
     <nav className="menu">
     <ul className="menu-list">
       <Link to="/" className='item-nav'>Home</Link>
@@ -22,11 +24,13 @@ const Header = () => {
       <Link to="/contacto" className='item-nav'>Contacto</Link>
     </ul>
   </nav>
+
+ 
   </div>
 
 
 <div className='container-text'>
-  <h1 className='text-center title'>Honraro nuestro legado ancestral</h1>
+  <h1 className='text-center title'>Honrando nuestro legado ancestral</h1>
   </div>
     </div>
 

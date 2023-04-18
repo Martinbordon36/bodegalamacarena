@@ -8,20 +8,20 @@ const Home = () => {
         <>
             <div className='container-home'>
                 <div className='text-home'>
-                    <h1 className='title-home'>Tradicion y Naturaleza</h1>
+                    <h1 className='title-home'>TRADICION Y NATURALEZA</h1>
                     <p className='title-home-p'>Nuestra filosofía es la valoración de la tradición familiar y la conexión con la naturaleza en la producción de vinos y bebidas espirituosas. Mantenemos vivos los valores y la historia que han pasado de generación en generación al tiempo que trabajamos en colaboración con la naturaleza, apreciando los elementos que la tierra nos brinda para lograr una experiencia profunda y trascendental.</p>
                     <br />
                     <br />
                 </div>
 
                 <div>
-                    <img src={img1} className="img-home" />
+                    <img src={img1} className="img-home" alt="img-blog"/>
                 </div>
             </div>
 
             <div className='container-home'>
                 <div>
-                    <img src={img2} className="img-home" />
+                    <img src={img2} className="img-home" alt="img-blog"/>
                 </div>
 
                 <div className='text-home'>
@@ -39,7 +39,7 @@ const Home = () => {
                 </div>
 
                 <div>
-                    <img src={img3} className="img-home" />
+                    <img src={img3} className="img-home" alt="img-blog" />
                 </div>
             </div>
         </>
